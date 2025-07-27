@@ -56,7 +56,7 @@ It allows you to scan all active devices in your local network and check for ope
 
 ## 📸 Example Output
 
-![screenshot](images/Screenshot.png)
+![screenshot](images/Photo1.png)
 
 ---
 
