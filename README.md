@@ -19,12 +19,38 @@ It allows you to scan all active devices in your local network and check for ope
   - Multi-threaded and fast
   - Optional save results to `.txt` file
 
+- 📡 **WiFi Scanner**  
+  - Scan available WiFi networks  
+  - **Requires monitor mode to be enabled on your wireless adapter**  
+  - Compatible with Linux systems (monitor mode must be activated manually or via script)
+
 ---
 
 ## ⚙️ Requirements
 
 - Python 3.13  
-- No external libraries required *(uses only built-in modules)*
+- No external libraries required *(uses only built-in modules)*  
+
+> **Note for Kali Linux and similar distributions:**  
+> If you try to install Python packages system-wide using `pip install`,  
+> you may encounter an error like:  
+>  
+> ```
+> error: externally-managed-environment
+> ```  
+>  
+> This happens because the OS manages Python packages system-wide.  
+> To avoid this, you should use a **virtual environment**:  
+>  
+> ```bash
+> python3 -m venv venv
+> source venv/bin/activate
+> pip install <package-name>
+> ```  
+>  
+> Alternatively, use `pipx` to install standalone Python applications.  
+> For more information, see:  
+> https://www.kali.org/docs/general-use/python3-external-packages/
 
 ---
 
